@@ -1,23 +1,20 @@
 ```markdown
 # Blog Website
 
+## on delete and update not working proper
+
 ## Overview
 This is a Laravel-based blog website that provides authentication, blog management, and real-time notifications. It enables users to register, create and manage blog posts, and receive instant updates through notifications.
 
 ## Features
 1. **Authentication**
    - User registration and login
-   - Password reset functionality
-   - Email verification
 
 2. **Blog Management**
    - Create, update, and delete blog posts
-   - Categorization and tagging of posts
-   - Rich text editor for writing content
    
 3. **Real-Time Notifications**
-   - Instant notifications for new comments and likes
-   - WebSocket-based real-time updates
+   - WebSocket-based real-time updates on create 
    - User-specific notifications dashboard
 
 ## Installation
